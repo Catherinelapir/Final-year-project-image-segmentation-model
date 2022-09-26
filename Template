@@ -1,9 +1,0 @@
-</div>
-            <div class="col-sm-6">
-                {% if image %}
-                <img src="{{image_url}}" alt="">
-                <img style="position: absolute" src="{{image_url}}" alt="">
-                <img style="position: relative; opacity: 0.5" src="{{mask_url}}" alt="">
-                {% endif %}
-            </div>
-        </div>
